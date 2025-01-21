@@ -1,70 +1,35 @@
-# [Lone Wolf Theme Jekyll][1]
+# Business Jekyll Theme
 
-[![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://github.com/manid2/lone-wolf-theme/blob/master/LICENSE)
-[![Jekyll](https://img.shields.io/badge/jekyll-%3E%3D%203.8-blue.svg)][jekyll]
-[![Ruby gem](https://badge.fury.io/rb/lone-wolf-theme.svg)](https://rubygems.org/gems/lone-wolf-theme/)
-[![Build Status](https://travis-ci.com/manid2/lone-wolf-theme.svg?branch=master)](https://travis-ci.com/manid2/lone-wolf-theme)
+Business Jekyll Theme is a theme that is designed to be used for small and medium business. It is designed by a team from [Technext](https://github.com/technext/). The theme is then ported over by [Melvin Ch'ng](http://melvinchng.github.io) for Jekyll support. The original source code can be obainted from Technext's [repository](https://github.com/technext/office)
 
-A simple [bootstrap][bs4] based jekyll theme.
+Unlike most Jekyll Themes, Business Jekyll Theme is not meant to be a single page theme. This theme is a package that you can use for your business website or promote certain project. I reorganized all the files and make it Jekyll friendly.
 
-It uses
+Big thanks to the creator of Office as this theme would not be possible without their hard work! You are always welcome to contribute to this repository to make it better!
 
-- [github-pages compatible gems][gh-gems]
-- [bootswatch wrappers][bootswatch]
-- [animate.css][ani-css].
+**Example Site**
+- [Business Jekyll Theme](https://business-jekyll-theme.github.io)
 
-## Who uses it
+**Example Site From The Original Creator**
+- [Office Template](http://demo.themewagon.com/preview/office-responsive-multipage-bootstrap-template)
 
-- [Lone wolf theme docs][1]
+## Feature
+- Responsive layout
+- CSS Framework - Bootstrap 3
+- Beautiful icons by Fontawesome
+- Clean, simple and elegant
+- Multi page Template
+- Well commented and structured coding
+- Easy to use
+- It's Free!
 
-## Screenshots
-
-![Lone wolf theme screenshot][lwt_ss_all_img]
-
-<!-- Images -->
-[lwt_ss_all_img]: lwt_screenshots/lwt_ss_all_in_one.png "Lone wolf theme screenshot"
+## Note
+I removed certain features from the original theme packages as we do not really need it. I modified the original source code slightly to make it more mobile friendly and reusable. 
 
 ## Installation
+1. For first time user, you have to install Ruby and Rails. If you do not have Ruby on Rails installed, you may follow [this tutorial](http://melvinchng.github.io/rails/RubyOnRailsInstallation.html) that I wrote for Windows, Linux, and MacOS (installation videos are included).
+2. Install Jekyll by using the command `gem install jekyll`.
+3. Start your localhost server by using the command `jekyll serve`. Make sure that you are at the root directory of your folder before using this command.
+4. Your site should be accessible at `localhost:4000`.
+5. For additional information about Jekyll, refer to the [official website](http://jekyllrb.com/). 
 
-### Using remote theme
-
-Easiest way to use the theme if you dont want to make changes to the theme's
-code.
-
-- Add `remote_theme    : "manid2/lone-wolf-theme"` to your `_config.yml` file.
-
-### By forking the theme repository
-
-If you want to make changes to the code and to truly own the site.
-Follow the blog on [smashing magazine][sm-gh-pages] to learn about this method.
-
-### As a ruby gem
-
-When you want to host the site on any server other than the github pages
-and also to make use of plenty of jekyll plugins.
-
-- Add `gem "lone-wolf-theme"` to your `Gemfile`.
-- Update bundled gems by using `bundle` command.
-- Add `theme    : "lone-wolf-theme"` to your `_config.yml`.
-
-## Contribution
-
-Use the link to learn how to [contribute][3] to LWT.
-
-## Sponsor
-
-If you like this theme and want to support its development please consider
-sponsoring.
-
-<a href="https://buymeacoffee.com/manid2" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-yellow.png" alt="Buy Me A Coffee" height="42" width="174"></a>
-
-<!-- Links in the post -->
-[jekyll]: https://jekyllrb.com/
-[bs4]: https://getbootstrap.com/
-[bootswatch]: https://bootswatch.com/
-[gh-gems]: https://pages.github.com/versions/
-[ani-css]: https://daneden.github.io/animate.css/
-[sm-gh-pages]: https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/
-
-[1]: https://manid2.github.io/lone-wolf-theme/
-[3]: https://manid2.github.io/lone-wolf-theme/contribute/
+## Enjoy!
